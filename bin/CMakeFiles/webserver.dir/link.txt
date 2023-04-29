@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/webserver.dir/http_conn.o CMakeFiles/webserver.dir/log.o CMakeFiles/webserver.dir/main.o CMakeFiles/webserver.dir/mysql_connection_pool.o  -o webserver -lmysqlclient -lpthread -lm -lrt -latomic -lssl -lcrypto -ldl 

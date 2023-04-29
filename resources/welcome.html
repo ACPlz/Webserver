@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>油液颗粒信息管理系统</title>
+        <style type="text/css">
+            body { 
+            background: url(./background.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+    <br/>
+    <br/>
+    <div align="center"><font size="8"> <strong>油液颗粒信息管理系统</strong></font></div>
+	<br/>
+	<br/>
+        <div>
+            <div><font  style="font-size:25px;position:absolute;left:1100px;top:500px;"><strong>  颗粒类型：</strong></font></div>
+            <div><font  style="font-size:25px;position:absolute;left:1100px;top:540px;"><strong>  颗粒数量：</strong></font></div>
+            <div><font  style="font-size:25px;position:absolute;left:1100px;top:580px;"><strong>  颗粒平均尺寸：</strong></font></div>
+            <div><font  style="font-size:25px;position:absolute;left:1100px;top:620px;"><strong>  当前运行状态：</strong></font></div>
+            <!-- <input type="text" style="font-size:25px;position:absolute;left:1300px;top:540px;" size="18" maxlength="80" value="5" readonly="readonly"/>
+            <input type="text" style="font-size:25px;position:absolute;left:1300px;top:580px;" size="18" maxlength="80" value="67.25um" readonly="readonly"/>
+            <input type="text" style="font-size:25px;position:absolute;left:1300px;top:620px;" size="18" maxlength="80" value="正常" readonly="readonly"/> -->
+            <div><font size="4" style="position:absolute;left:720px;top:175px;"><strong>当前颗粒视频</strong></font></div>
+            <div><font size="4" style="position:absolute;left:1300px;top:175px;"><strong>当前颗粒图像</strong></font></div>
+		    <form action="5" method="post">
+ 			    <div><button type="submit" style="position:absolute;left:100px;top:200px;width:300px;height:100px"><font size="6">查看油液颗粒图像</button></div>
+            </form>
+            <form action="6" method="post">
+                 <div><button type="submit" style="position:absolute;left:100px;top:350px;width:300px;height:100px"><font size="6">查看油液颗粒视频</button></div>
+            </form>
+		    <form action="7" method="post">
+ 			    <div><button type="submit" style="position:absolute;left:100px;top:500px;width:300px;height:100px"><font size="6">油液颗粒信息管理系统使用手册</button></div>
+            </form>
+            <div><img src="./xxx.jpg" style="position:absolute;left:1100px;top:200px;" title="awsl" width="500" height="281"/></div>
+            <div><video style="position:absolute;left:450px;top:200px;" width="640" height="480" controls>
+                <source src="xxx.mp4" type="video/mp4">
+        </div>
+        <iframe src="particletype.txt" type="text" frameborder = "1" style="background-color: white;font-size:25px;position:absolute;left:1300px;top:500px;" width="290" height="30"  readonly="readonly"></iframe>
+        <iframe src="particlenums.txt" type="text" frameborder = "1" style="background-color: white;font-size:25px;position:absolute;left:1300px;top:540px;" width="290" height="30"  readonly="readonly"></iframe>
+        <iframe src="particlesize.txt" type="text" frameborder = "1" style="background-color: white;font-size:25px;position:absolute;left:1300px;top:580px;" width="290" height="30"  readonly="readonly"></iframe>
+        <iframe src="status.txt" type="text" frameborder = "1" style="background-color: white;font-size:25px;position:absolute;left:1300px;top:620px;" width="290" height="30"  readonly="readonly"></iframe>
+    </body>
+</html>
